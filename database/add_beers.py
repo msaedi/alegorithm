@@ -18,7 +18,7 @@ def load_beer_data(filename, file_format='json'):
 
 def utappd_to_sqlite(index, beer):
     '''index, name, description, brewery, style, rating, raters, monthly_stats, unique_stats, total_stats, ibu, abv, label_url, date_added'''
-    beer_row = Beer(get_index(index), 
+    beer_row = BeerOld(get_index(index), 
 					get_name(beer), 
 					get_description(beer), 
 					get_brewery(beer), 

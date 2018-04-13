@@ -14,6 +14,12 @@ session.add(user)
  
 user = User("fakbar","1234", 'Faeze Akbar', 'faezeh.akbar@gmail.com')
 session.add(user)
+
+user = User("fasedi","1234", 'Farokh Saedi', 'farokh.saedi@gmail.com')
+session.add(user)
+
+user = User("mdanesh","1234", 'Mahshid Danesh', 'mahshid.danesh@me.com')
+session.add(user)
  
 # commit the record the database
 session.commit()
